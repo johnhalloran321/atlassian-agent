@@ -1,14 +1,15 @@
 # Atlassian Agent
-![Atlassian Agent](assets/atlassianAgent.png "")
+<img src="assets/atlassianAgent.png" width="48">
 
 ## About
 
-A local (gpt-oss-20b) agentic solution providing full integration with the [official Atlassian MCP server](https://www.atlassian.com/blog/announcements/remote-mcp-server).  Heavy lifting by (Agno)[https://github.com/agno-agi/agno].
+A local (gpt-oss-20b) agentic solution providing full integration with the [official Atlassian MCP server](https://www.atlassian.com/blog/announcements/remote-mcp-server).  Heavy lifting by [Agno](https://github.com/agno-agi/agno]).
 
 ## Installation
-   git clone https://github.com/johnhalloran321/atlassian-agent
-   cd atlassian-agent
-   pip install -r requirements.txt
+
+    git clone https://github.com/johnhalloran321/atlassian-agent
+    cd atlassian-agent
+    pip install -r requirements.txt
 
 ## Prereqs before use
 If gpt-oss-20b for ollama has not been downloaded, pull the model using
@@ -30,7 +31,8 @@ Start the ollama server in a separate terminal:
 
 
 In a separate terminal, start the chat session by running:
-   streamlit run atlassian_agent.py
+
+    streamlit run atlassian_agent.py
 
 ### Chat example
 An example request, with specific instructions about writing a Confluence page about bears:
