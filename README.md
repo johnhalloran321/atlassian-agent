@@ -1,5 +1,5 @@
 # Atlassian Agent
-![Atlassian Agent](assets/agent.png "")
+![Atlassian Agent](assets/atlassianAgent.png "")
 
 ## About
 
@@ -12,6 +12,7 @@ A local (gpt-oss-20b) agentic solution providing full integration with the [offi
 
 ## Prereqs before use
 If gpt-oss-20b for ollama has not been downloaded, pull the model using
+
      ollama pull gpt-oss:20b
 
 If using `conda` and `npx` is not installed, run 
@@ -20,16 +21,22 @@ If using `conda` and `npx` is not installed, run
 
 ## Example use
 In a standalone terminal, run the following command and leave the terminal open:
+
     npx -y mcp-remote https://mcp.atlassian.com/v1/sse
 
 Start the ollama server in a separate terminal:
+
     ollama serve
 
 
 In a separate terminal, start the chat session by running:
    streamlit run atlassian_agent.py
 
+### Chat example
+An example request, with specific instructions about writing a Confluence page about bears:
 ![Example chat session](assets/bears_confluence_request.png)
+
+and the resulting confluence page:
 ![Example generated Confluence page](assets/bears_confluence.png)
 
 ## Troubleshooting
