@@ -1,0 +1,27 @@
+NOTICE
+
+Atlassian Agent
+Copyright (C) 2025 John Halloran
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+This software includes third-party components:
+- ExampleLibrary v2.1 (GPL-3.0) - Copyright 2023 Example Corp
+- UtilityModule v1.5 (GPL-3.0-or-later) - Copyright 2022-2024 Utility Authors
+- DataParser (GPL-2.0-or-later) - Copyright 2021 DataParser Team
+
+For complete licensing information, see the COPYING file and individual 
+source file headers.
+
+Contact: johnhalloran321@gmail.com
+Project: https://github.com/johnhalloran321/atlassian-agent
