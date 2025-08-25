@@ -1,5 +1,5 @@
 # Atlassian Agent
-<img src="assets/atlassianAgent.png" width="48">
+<img src="assets/atlassianAgent.png" width="480">
 
 ## About
 
