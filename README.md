@@ -5,7 +5,7 @@
 
 ## About
 
-A local (gpt-oss-20b) agentic solution providing full integration with the [official Atlassian MCP server](https://www.atlassian.com/blog/announcements/remote-mcp-server).  Heavy lifting by [Agno](https://github.com/agno-agi/agno]).
+A local (gpt-oss-20b) agentic solution providing full integration with the [official Atlassian MCP server](https://www.atlassian.com/blog/announcements/remote-mcp-server).  Heavy lifting by [Agno](https://github.com/agno-agi/agno).
 
 ## Installation
 
